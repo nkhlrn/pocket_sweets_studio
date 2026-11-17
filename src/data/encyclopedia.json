@@ -1,0 +1,65 @@
+[
+  {
+    "id": "resin-clay",
+    "name": "樹脂黏土（Resin Clay）",
+    "type": "材料",
+    "tag": "主力塑形",
+    "image": "../../assets/source/desserts/IMG_8283.JPG",
+    "summary": "乾燥後呈半透明質感且具微彈性與韌性，不易碎裂，最適合製作法式塔皮、馬卡龍外殼、水果切面與玫瑰糖花。",
+    "tips": "若要製作草莓或奇異果的通透果肉感，可與純透明黏土 1:1 混合後再加入微量壓克力顏料調色。"
+  },
+  {
+    "id": "lightweight-clay",
+    "name": "超輕黏土（Lightweight Clay）",
+    "type": "材料",
+    "tag": "蛋糕／泡芙",
+    "image": "../../assets/source/desserts/IMG_8287.PNG",
+    "summary": "質地輕盈蓬鬆、乾燥後呈現細緻霧面質感，非常容易用細針或牙刷戳出烘焙氣孔，是海綿蛋糕、泡芙與可頌的首選。",
+    "tips": "乾燥速度較快，未使用的黏土需立即密封；上色前建議先混入微量淡黃色作為蛋糕底色。"
+  },
+  {
+    "id": "whipped-cream-clay",
+    "name": "仿真奶油土（Whipped Cream Clay）",
+    "type": "材料",
+    "tag": "擠花專用",
+    "image": "../../assets/source/desserts/IMG_8294.PNG",
+    "summary": "專為擠花設計的濕潤膏狀黏土，搭配微型花嘴能擠出銳利立體的貝殼、星形與垂墜花紋，乾燥後不塌陷。",
+    "tips": "可混入少許壓克力顏料調成淡粉或開心果綠，擠花前先在盤緣試擠排除氣泡。"
+  },
+  {
+    "id": "uv-resin",
+    "name": "高透亮 UV 滴膠（UV Resin）",
+    "type": "材料",
+    "tag": "鏡面／茶飲",
+    "image": "../../assets/source/desserts/IMG_8301.PNG",
+    "summary": "照 UV 燈即可於數十秒內固化成玻璃般的透明質感，用於水果表面果膠、焦糖淋面、閃電泡芙鏡面與紅茶茶湯。",
+    "tips": "調入透明色精可製作覆盆子醬或焦糖糖漿；操作時請保持桌面通風並避免皮膚直接接觸未固化膠體。"
+  },
+  {
+    "id": "precision-tweezers",
+    "name": "不鏽鋼彎頭／直頭精細鑷子",
+    "type": "工具",
+    "tag": "組裝必備",
+    "image": "../../assets/source/process/IMG_8317.WEBP",
+    "summary": "在 1:12 微縮比例下，手指難以精準放置 1～2 mm 的花朵與莓果，高密合度的尖頭鑷子是組裝時最重要的延伸雙手。",
+    "tips": "建議準備直頭（夾取水果、珍珠）與彎頭（深入蛋糕夾層或展示櫃死角）各一支。"
+  },
+  {
+    "id": "mini-piping-nozzles",
+    "name": "微型金屬擠花嘴與自製擠花袋",
+    "type": "工具",
+    "tag": "裱花造型",
+    "image": "../../assets/source/process/IMG_8318.PNG",
+    "summary": "口徑僅 1～3 mm 的星形、圓形與玫瑰花瓣花嘴，能將奶油土擠出與真實法式甜點同比例的精緻紋路。",
+    "tips": "使用完畢後應立即以濕紙巾擦淨並用細針疏通齒縫，避免奶油土硬化堵塞。"
+  },
+  {
+    "id": "brass-tongs-and-trays",
+    "name": "黃銅陳列夾與微縮展示器具",
+    "type": "工具",
+    "tag": "陳列美學",
+    "image": "../../assets/source/process/IMG_8319.PNG",
+    "summary": "搭配陶瓷小盤、高腳蛋糕架與黃銅玻璃展示櫃，讓完成後的微縮甜點不僅是單品，更能成為童話屋中的一道風景。",
+    "tips": "擺放成品前可使用微量藍丁膠（Blu-Tack）固定底座，方便日後調整展示櫃陳列而不留殘膠。"
+  }
+]

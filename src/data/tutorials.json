@@ -1,0 +1,110 @@
+[
+  {
+    "id": "tut-strawberry-cake-assembly",
+    "title": "雙層微縮草莓鮮奶油蛋糕：氣孔質感與鑷子精細組裝",
+    "category": "蛋糕製作",
+    "difficulty": "中級",
+    "estimatedTime": "約 90 分鐘（含表乾）",
+    "scale": "1:12",
+    "coverImage": "../../assets/source/process/IMG_8317.WEBP",
+    "materials": ["輕黏土（蛋糕體）", "樹脂黏土（草莓）", "奶油土（鮮奶油夾心）", "壓克力顏料（黃土／朱紅）"],
+    "tools": ["海綿戳刺針 / 牙刷", "不鏽鋼精細鑷子", "薄刃美工刀", "陶瓷高腳盤底座"],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "製作蓬鬆海綿蛋糕體",
+        "description": "將輕黏土調入極少量黃土色顏料，壓成兩片直徑約 1.5 公分的圓餅，靜置微乾後以牙刷與細針輕戳側面，做出烘焙氣孔質感，再輕掃淺焦糖色粉增添烤色。",
+        "image": "../../assets/source/desserts/IMG_8297.PNG"
+      },
+      {
+        "stepNumber": 2,
+        "title": "半透明草莓切片與夾心組裝",
+        "description": "以半透明樹脂黏土捏製水滴狀草莓並對半切開，用細筆繪出中心白色果心與表面籽點。於底層蛋糕擠上奶油土後，沿外緣貼合草莓切片再疊上第二層蛋糕。",
+        "image": "../../assets/source/desserts/IMG_8287.PNG"
+      },
+      {
+        "stepNumber": 3,
+        "title": "以精細鑷子進行頂部花朵點綴",
+        "description": "於頂層擠出小巧奶油花球並擺上草莓塊與開心果碎，最後使用不鏽鋼精細鑷子夾起預先乾燥的粉色五瓣微縮糖花，輕輕定點黏貼於最上方完成作品。",
+        "image": "../../assets/source/process/IMG_8317.WEBP"
+      }
+    ],
+    "troubleshooting": [
+      "草莓切片太厚導致蛋糕傾斜：切片厚度控制在 1 mm 以內，並與內側奶油土齊平。",
+      "鑷子夾碎乾燥小花：等樹脂黏土花瓣完全硬化（約 24 小時）再夾取花心位置。"
+    ],
+    "wikiPath": "wiki/tutorials/strawberry-cake-assembly.md"
+  },
+  {
+    "id": "tut-piping-rose-cake",
+    "title": "微縮奶油擠花技法：打造法式玫瑰花環蛋糕",
+    "category": "擠花技法",
+    "difficulty": "進階",
+    "estimatedTime": "約 120 分鐘",
+    "scale": "1:12",
+    "coverImage": "../../assets/source/process/IMG_8318.PNG",
+    "materials": ["奶油土（象牙白／玫瑰粉）", "樹脂黏土（玫瑰花與葉片）", "微型珍珠珠飾", "少許白膠"],
+    "tools": ["自製微縮擠花袋", "微型星形／圓形金屬花嘴", "矽膠塑形筆", "練習瓷盤"],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "準備擠花袋與調色練習",
+        "description": "將奶油土分裝進小型玻璃紙或烘焙紙捲成的擠花袋中，裝入微型花嘴。正式上蛋糕前，先於瓷盤上試擠花型與力道，確保奶油土軟硬度適中且不出水。",
+        "image": "../../assets/source/desserts/IMG_8294.PNG"
+      },
+      {
+        "stepNumber": 2,
+        "title": "蛋糕抹面與頂部雙色擠花",
+        "description": "以粉霧玫瑰色黏土包裹蛋糕底座並修整平整。使用雙色擠花袋沿蛋糕頂部邊緣垂直下壓再快速提起，形成飽滿立體的貝殼與星形奶油花冠。",
+        "image": "../../assets/source/process/IMG_8318.PNG"
+      },
+      {
+        "stepNumber": 3,
+        "title": "花環垂墜與珍珠裝飾",
+        "description": "使用極細圓形花嘴於蛋糕側面拉出連續的弧形垂墜線條，在交接處點綴微型珍珠珠飾，最後於頂部中央擺上立體黏土玫瑰花完成。",
+        "image": "../../assets/source/desserts/IMG_8303.PNG"
+      }
+    ],
+    "troubleshooting": [
+      "奶油土過硬難以擠出：可混入 1～2 滴純水或極少量專用軟化劑搓揉均勻。",
+      "花紋邊緣毛躁：擠花袋前端不可留有空氣，擠壓時保持穩定等速。"
+    ],
+    "wikiPath": "wiki/tutorials/piping-rose-cake.md"
+  },
+  {
+    "id": "tut-showcase-tart-finishing",
+    "title": "法式塔派烤色漸層與黃銅展示櫃陳列美學",
+    "category": "塔派與陳列",
+    "difficulty": "入門～中級",
+    "estimatedTime": "約 60 分鐘",
+    "scale": "1:12",
+    "coverImage": "../../assets/source/process/IMG_8319.PNG",
+    "materials": ["樹脂黏土", "黃土／焦糖色粉彩", "UV 滴膠", "微型莓果配件"],
+    "tools": ["丸棒", "扁平掃粉筆刷", "黃銅陳列夾", "白色陶瓷方形底盤"],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "塑形波浪塔皮與分層烤色",
+        "description": "以丸棒將淡黃色樹脂黏土壓入迷你塔模形成凹槽。趁半乾時用乾燥平刷沾取黃土色色粉掃過整體，再於邊緣突起處疊加少量焦糖棕色，營造剛出爐的酥脆層次。",
+        "image": "../../assets/source/desserts/IMG_8283.JPG"
+      },
+      {
+        "stepNumber": 2,
+        "title": "填餡、擺果與 UV 膠鏡面封層",
+        "description": "擠入卡士達色奶油土後擺上微縮草莓、藍莓與花朵，以極細筆刷在水果表面輕點一層透明 UV 滴膠並照燈固化，呈現新鮮多汁的果膠反光。",
+        "image": "../../assets/source/desserts/IMG_8304.PNG"
+      },
+      {
+        "stepNumber": 3,
+        "title": "使用黃銅陳列夾入櫃擺盤",
+        "description": "將完成的甜點置於微縮陶瓷小盤上，使用黃銅陳列夾依高度與色彩（粉紅馬卡龍、金箔閃電泡芙、鮮紅莓果塔）錯落陳列於黃銅玻璃展示櫃中。",
+        "image": "../../assets/source/process/IMG_8319.PNG"
+      }
+    ],
+    "troubleshooting": [
+      "烤色看起來髒髒的：色粉務必「少量多次」並在衛生紙上先拍掉餘粉再輕掃。",
+      "UV 膠溢出塔緣：每次僅取針尖大小的膠量，避免流進塔皮紋路中破壞霧面酥感。"
+    ],
+    "wikiPath": "wiki/tutorials/showcase-tart-finishing.md"
+  }
+]

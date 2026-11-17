@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>材料與工具百科｜Pocket Sweets Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body data-page="encyclopedia">
+  <header id="site-header"></header>
+
+  <section class="page-banner">
+    <img class="page-banner__bg" src="../../assets/source/backgrounds/IMG_8322.PNG" alt="材料與工具百科" />
+    <div class="page-banner__scrim"></div>
+    <div class="page-banner__content">
+      <h1>材料與專用工具百科</h1>
+      <p>認識樹脂黏土、輕黏土、仿真奶油土與 UV 滴膠的乾燥特性，挑選最適合 1:12 比例的精密工具。</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div class="counter-bar">
+        <div class="filter-pills" id="ency-pills">
+          <button class="pill-btn active" data-type="全部" type="button">全部項目</button>
+          <button class="pill-btn" data-type="材料" type="button">製作材料</button>
+          <button class="pill-btn" data-type="工具" type="button">專用工具</button>
+        </div>
+        <span style="font-size:0.9rem;color:var(--color-wood-medium);">每一項條目皆附帶實作保存與調色小秘訣</span>
+      </div>
+      <div class="card-grid" id="encyclopedia-grid"></div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script type="module" src="../scripts/app.js"></script>
+</body>
+</html>

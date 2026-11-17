@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PocketSweetsCraftLog",
+  "description": "Pocket Sweets Studio 個人製作紀錄（Craft Log）資料結構定義，初期儲存於 localStorage。",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "status",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "紀錄唯一識別碼（如：log-20261117-01）"
+    },
+    "dessertId": {
+      "type": "string",
+      "description": "關聯的甜點圖鑑 ID（選填，若為自由創作可留空）"
+    },
+    "title": {
+      "type": "string",
+      "description": "製作作品名稱（如：1:12 草莓千層派初試）"
+    },
+    "scale": {
+      "type": "string",
+      "enum": ["1:12", "1:6", "1:24", "其他"],
+      "description": "實際製作比例尺"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["規劃中", "製作中", "乾燥中", "已完成"],
+      "description": "目前製作進度"
+    },
+    "usedMaterials": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "實際使用的黏土、顏料與配件清單"
+    },
+    "notes": {
+      "type": "string",
+      "description": "個人製作心得、調色比例或失敗檢討筆記"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "建立時間（ISO 8601）"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "最後更新時間（ISO 8601）"
+    }
+  }
+}

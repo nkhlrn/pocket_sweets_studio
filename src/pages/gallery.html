@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>甜點展示櫃｜Pocket Sweets Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body data-page="gallery">
+  <header id="site-header" class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-logo__en">Pocket Sweets Studio</span>
+        <span class="brand-logo__zh">掌心甜點研究所</span>
+      </a>
+      <button class="nav-toggle" aria-label="切換選單" id="nav-toggle-btn">☰</button>
+      <ul class="nav-links" id="nav-links-list">
+        <li><a href="index.html">店舖首頁</a></li>
+        <li><a href="gallery.html" class="active">甜點展示櫃</a></li>
+        <li><a href="process-log.html">甜點製作日誌</a></li>
+        <li><a href="studio-log.html">我的工作檯 <span class="fav-badge" id="nav-fav-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <img class="page-banner__bg" src="../../assets/source/backgrounds/IMG_8320.PNG" alt="微縮甜點展示櫃" />
+    <div class="page-banner__scrim"></div>
+    <div class="page-banner__content">
+      <h1>微縮甜點展示櫃</h1>
+      <p>直接瀏覽全部 22 件微縮甜點成品，點擊任一圖片即可開啟放大檢視畫面。</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <p id="gallery-count" style="margin:0 0 1.4rem;color:var(--color-wood-medium);font-size:0.95rem;font-weight:600;">共展出 22 件微縮甜點成品（點擊任一圖片可放大檢視）</p>
+      <div class="card-grid" id="gallery-grid">
+          <article class="showcase-card" data-kind="dessert" data-id="mini-glass-display-cabinet" data-title="迷你復古雕花玻璃展示櫃" data-subtitle="Miniature Vintage Display Cabinet · 1:12" data-desc="奶油白雕花玻璃展示櫃內分四層陳列多款微縮蛋糕、水果塔與馬卡龍，展現法式甜點店的精緻縮影。" data-img="../../assets/source/desserts/IMG_8280.JPG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8280.JPG" alt="迷你復古雕花玻璃展示櫃" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 迷你復古雕花玻璃展示櫃">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">迷你復古雕花玻璃展示櫃</h3>
+              <p class="showcase-card__desc">奶油白雕花玻璃展示櫃內分四層陳列多款微縮蛋糕、水果塔與馬卡龍，展現法式甜點店的精緻縮影。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Miniature Vintage Display Cabinet</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="strawberry-shortcake-classic" data-title="法式草莓鮮奶油圓蛋糕" data-subtitle="Fraisier Cream Shortcake · 1:12" data-desc="以淡粉色奶油花邊圍繞雪白蛋糕體，側面鑲嵌草莓切片，頂部點綴新鮮草莓與奶油花。" data-img="../../assets/source/desserts/IMG_8282.JPG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8282.JPG" alt="法式草莓鮮奶油圓蛋糕" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 法式草莓鮮奶油圓蛋糕">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">法式草莓鮮奶油圓蛋糕</h3>
+              <p class="showcase-card__desc">以淡粉色奶油花邊圍繞雪白蛋糕體，側面鑲嵌草莓切片，頂部點綴新鮮草莓與奶油花。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Fraisier Cream Shortcake</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="mixed-berry-custard-tart" data-title="綜合莓果卡士達花朵塔" data-subtitle="Mixed Berry Custard Tart · 1:12" data-desc="金黃波浪塔皮盛滿卡士達醬，擺放覆盆子、草莓、醋栗與粉色小花裝飾。" data-img="../../assets/source/desserts/IMG_8283.JPG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8283.JPG" alt="綜合莓果卡士達花朵塔" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 綜合莓果卡士達花朵塔">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">綜合莓果卡士達花朵塔</h3>
+              <p class="showcase-card__desc">金黃波浪塔皮盛滿卡士達醬，擺放覆盆子、草莓、醋栗與粉色小花裝飾。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Mixed Berry Custard Tart</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="pastel-french-macarons" data-title="粉彩法式馬卡龍組" data-subtitle="Pastel French Macarons · 1:12" data-desc="包含玫瑰粉、開心果綠、香草白、檸檬黃與焦糖摩卡五種法式粉彩色調。" data-img="../../assets/source/desserts/IMG_8284.JPG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8284.JPG" alt="粉彩法式馬卡龍組" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 粉彩法式馬卡龍組">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">粉彩法式馬卡龍組</h3>
+              <p class="showcase-card__desc">包含玫瑰粉、開心果綠、香草白、檸檬黃與焦糖摩卡五種法式粉彩色調。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Pastel French Macarons</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="caramel-choux-puffs" data-title="焦糖脆皮鮮奶油泡芙" data-subtitle="Caramel Choux à la Crème · 1:12" data-desc="蓬鬆泡芙外殼夾入厚實香草鮮奶油，部分淋上閃亮焦糖糖漿。" data-img="../../assets/source/desserts/IMG_8285.JPG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8285.JPG" alt="焦糖脆皮鮮奶油泡芙" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 焦糖脆皮鮮奶油泡芙">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">焦糖脆皮鮮奶油泡芙</h3>
+              <p class="showcase-card__desc">蓬鬆泡芙外殼夾入厚實香草鮮奶油，部分淋上閃亮焦糖糖漿。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Caramel Choux à la Crème</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="rose-cream-mille-feuille" data-title="粉紅糖霜千層酥" data-subtitle="Rose Glaze Mille-Feuille · 1:12" data-desc="三層酥脆千層派皮夾入淡粉色奶油球，頂部覆以光澤糖霜與單朵粉紅奶油花。" data-img="../../assets/source/desserts/IMG_8286.JPG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8286.JPG" alt="粉紅糖霜千層酥" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 粉紅糖霜千層酥">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">粉紅糖霜千層酥</h3>
+              <p class="showcase-card__desc">三層酥脆千層派皮夾入淡粉色奶油球，頂部覆以光澤糖霜與單朵粉紅奶油花。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Rose Glaze Mille-Feuille</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="double-layer-strawberry-gateau" data-title="雙層草莓花園鮮奶油蛋糕" data-subtitle="Double-Tier Strawberry Gateau · 1:12" data-desc="雙層海綿蛋糕夾入鮮奶油與草莓切片，頂部擺放草莓與綠色開心果碎，陳列於木桌高腳瓷盤。" data-img="../../assets/source/desserts/IMG_8287.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8287.PNG" alt="雙層草莓花園鮮奶油蛋糕" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 雙層草莓花園鮮奶油蛋糕">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">雙層草莓花園鮮奶油蛋糕</h3>
+              <p class="showcase-card__desc">雙層海綿蛋糕夾入鮮奶油與草莓切片，頂部擺放草莓與綠色開心果碎，陳列於木桌高腳瓷盤。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Double-Tier Strawberry Gateau</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="fresh-fruit-custard-tart" data-title="繽紛鮮果卡士達大塔" data-subtitle="Fresh Orchard Fruit Tart · 1:12" data-desc="匯集草莓、奇異果、藍莓與柑橘切片的法式鮮果塔，盛裝於金邊碎花瓷盤中。" data-img="../../assets/source/desserts/IMG_8289.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8289.PNG" alt="繽紛鮮果卡士達大塔" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 繽紛鮮果卡士達大塔">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">繽紛鮮果卡士達大塔</h3>
+              <p class="showcase-card__desc">匯集草莓、奇異果、藍莓與柑橘切片的法式鮮果塔，盛裝於金邊碎花瓷盤中。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Fresh Orchard Fruit Tart</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="saint-honore-macaron-platter" data-title="聖多諾黑與馬卡龍高腳盤" data-subtitle="Saint-Honoré &amp; Macarons · 1:12" data-desc="高腳瓷盤上陳列頂著焦糖脆片的聖多諾黑泡芙，搭配粉、綠、白三色馬卡龍。" data-img="../../assets/source/desserts/IMG_8290.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8290.PNG" alt="聖多諾黑與馬卡龍高腳盤" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 聖多諾黑與馬卡龍高腳盤">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">聖多諾黑與馬卡龍高腳盤</h3>
+              <p class="showcase-card__desc">高腳瓷盤上陳列頂著焦糖脆片的聖多諾黑泡芙，搭配粉、綠、白三色馬卡龍。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Saint-Honoré &amp; Macarons</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="croissant-canele-brass-tray" data-title="法式可頌與焦糖可麗露托盤" data-subtitle="Croissants &amp; Canelés Tray · 1:12" data-desc="金黃酥皮可頌與深焦糖色可麗露整齊擺放於雕花黃銅托盤，呈現法式晨間烘焙氛圍。" data-img="../../assets/source/desserts/IMG_8291.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8291.PNG" alt="法式可頌與焦糖可麗露托盤" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 法式可頌與焦糖可麗露托盤">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">法式可頌與焦糖可麗露托盤</h3>
+              <p class="showcase-card__desc">金黃酥皮可頌與深焦糖色可麗露整齊擺放於雕花黃銅托盤，呈現法式晨間烘焙氛圍。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Croissants &amp; Canelés Tray</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="eclairs-mille-feuille-plate" data-title="閃電泡芙與千層派瓷盤組" data-subtitle="Éclairs &amp; Mille-Feuille Duo · 1:12" data-desc="同一瓷盤匯集金箔黑巧克力閃電泡芙、覆盆子粉紅閃電泡芙與雙份花朵千層派。" data-img="../../assets/source/desserts/IMG_8292.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8292.PNG" alt="閃電泡芙與千層派瓷盤組" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 閃電泡芙與千層派瓷盤組">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">閃電泡芙與千層派瓷盤組</h3>
+              <p class="showcase-card__desc">同一瓷盤匯集金箔黑巧克力閃電泡芙、覆盆子粉紅閃電泡芙與雙份花朵千層派。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Éclairs &amp; Mille-Feuille Duo</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="piping-worktable-props" data-title="裱花工作檯與奶油玫瑰練習盤" data-subtitle="Piping Bench &amp; Buttercream Roses · 1:12" data-desc="實木工作檯上擺放多色擠花袋、金屬花嘴與盛裝奶油玫瑰花型的碎花瓷盤。" data-img="../../assets/source/desserts/IMG_8294.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8294.PNG" alt="裱花工作檯與奶油玫瑰練習盤" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 裱花工作檯與奶油玫瑰練習盤">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">裱花工作檯與奶油玫瑰練習盤</h3>
+              <p class="showcase-card__desc">實木工作檯上擺放多色擠花袋、金屬花嘴與盛裝奶油玫瑰花型的碎花瓷盤。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Piping Bench &amp; Buttercream Roses</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="fingertip-scale-strawberry-cake" data-title="指尖比例實拍：雙層草莓蛋糕" data-subtitle="Fingertip Scale Strawberry Cake · 1:12" data-desc="以指尖輕捧迷你高腳盤上的雙層草莓鮮奶油蛋糕，直觀展現 1:12 微縮甜點的精巧尺寸。" data-img="../../assets/source/desserts/IMG_8297.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8297.PNG" alt="指尖比例實拍：雙層草莓蛋糕" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 指尖比例實拍：雙層草莓蛋糕">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">指尖比例實拍：雙層草莓蛋糕</h3>
+              <p class="showcase-card__desc">以指尖輕捧迷你高腳盤上的雙層草莓鮮奶油蛋糕，直觀展現 1:12 微縮甜點的精巧尺寸。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Fingertip Scale Strawberry Cake</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="brass-curved-showcase-closeup" data-title="黃銅弧形玻璃展示櫃雙層陳列" data-subtitle="Curved Brass Pastry Showcase · 1:12" data-desc="暖黃燈光映照下的弧形黃銅玻璃櫃，上下兩層滿載草莓塔、千層派、馬卡龍、泡芙與可麗露。" data-img="../../assets/source/desserts/IMG_8298.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8298.PNG" alt="黃銅弧形玻璃展示櫃雙層陳列" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 黃銅弧形玻璃展示櫃雙層陳列">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">黃銅弧形玻璃展示櫃雙層陳列</h3>
+              <p class="showcase-card__desc">暖黃燈光映照下的弧形黃銅玻璃櫃，上下兩層滿載草莓塔、千層派、馬卡龍、泡芙與可麗露。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Curved Brass Pastry Showcase</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="miniature-fruit-basket" data-title="微縮藤籃新鮮莓果與鮮果" data-subtitle="Miniature Orchard Fruit Basket · 1:12" data-desc="編織藤籃中盛滿草莓、覆盆子、藍莓、葡萄、橘子與西洋梨，是甜點裝飾的靈感素材庫。" data-img="../../assets/source/desserts/IMG_8299.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8299.PNG" alt="微縮藤籃新鮮莓果與鮮果" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 微縮藤籃新鮮莓果與鮮果">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">微縮藤籃新鮮莓果與鮮果</h3>
+              <p class="showcase-card__desc">編織藤籃中盛滿草莓、覆盆子、藍莓、葡萄、橘子與西洋梨，是甜點裝飾的靈感素材庫。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Miniature Orchard Fruit Basket</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="mini-madeleine-tea-set" data-title="法式骨瓷茶壺與貝殼瑪德蓮" data-subtitle="French Tea &amp; Madeleines · 1:12" data-desc="玫瑰碎花茶壺組搭配粉紅與原味貝殼瑪德蓮，營造法式沙龍的悠閒午茶桌景。" data-img="../../assets/source/desserts/IMG_8300.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8300.PNG" alt="法式骨瓷茶壺與貝殼瑪德蓮" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 法式骨瓷茶壺與貝殼瑪德蓮">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">法式骨瓷茶壺與貝殼瑪德蓮</h3>
+              <p class="showcase-card__desc">玫瑰碎花茶壺組搭配粉紅與原味貝殼瑪德蓮，營造法式沙龍的悠閒午茶桌景。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">French Tea &amp; Madeleines</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="rose-soda-and-tea-bar" data-title="玫瑰氣泡飲與手沖紅茶吧檯" data-subtitle="Rose Soda &amp; Tea Bar · 1:12" data-desc="雕花木吧檯上陳列冰鎮草莓氣泡飲、琥珀色玻璃茶壺與熱紅茶杯，呈現清涼剔透的液體質感。" data-img="../../assets/source/desserts/IMG_8301.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8301.PNG" alt="玫瑰氣泡飲與手沖紅茶吧檯" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 玫瑰氣泡飲與手沖紅茶吧檯">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">玫瑰氣泡飲與手沖紅茶吧檯</h3>
+              <p class="showcase-card__desc">雕花木吧檯上陳列冰鎮草莓氣泡飲、琥珀色玻璃茶壺與熱紅茶杯，呈現清涼剔透的液體質感。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Rose Soda &amp; Tea Bar</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="strawberry-mille-feuille-and-choux" data-title="草莓千層切塊與覆盆子泡芙塔" data-subtitle="Strawberry Slice &amp; Berry Choux · 1:12" data-desc="雙份瓷盤分別盛裝法式草莓切片蛋糕與覆盆子鮮奶油泡芙塔，旁附復古銀色餐具與亞麻餐巾。" data-img="../../assets/source/desserts/IMG_8302.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8302.PNG" alt="草莓千層切塊與覆盆子泡芙塔" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 草莓千層切塊與覆盆子泡芙塔">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">草莓千層切塊與覆盆子泡芙塔</h3>
+              <p class="showcase-card__desc">雙份瓷盤分別盛裝法式草莓切片蛋糕與覆盆子鮮奶油泡芙塔，旁附復古銀色餐具與亞麻餐巾。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Strawberry Slice &amp; Berry Choux</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="rose-garland-celebration-cake" data-title="珍珠玫瑰花環慶典蛋糕" data-subtitle="Rose Garland Celebration Cake · 1:12" data-desc="蛋糕側面擠出優雅的法式花邊垂墜與珍珠點綴，頂部盛開著手工捏製的粉色黏土玫瑰花。" data-img="../../assets/source/desserts/IMG_8303.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8303.PNG" alt="珍珠玫瑰花環慶典蛋糕" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 珍珠玫瑰花環慶典蛋糕">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">珍珠玫瑰花環慶典蛋糕</h3>
+              <p class="showcase-card__desc">蛋糕側面擠出優雅的法式花邊垂墜與珍珠點綴，頂部盛開著手工捏製的粉色黏土玫瑰花。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Rose Garland Celebration Cake</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="showcase-selected-platter" data-title="黃銅展示櫃精選午茶托盤" data-subtitle="Showcase Signature Platter · 1:12" data-desc="展示櫃內的黃銅托盤匯集覆盆子花朵塔、金箔巧克力閃電泡芙、粉色馬卡龍、泡芙與草莓方塊蛋糕。" data-img="../../assets/source/desserts/IMG_8304.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8304.PNG" alt="黃銅展示櫃精選午茶托盤" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 黃銅展示櫃精選午茶托盤">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">黃銅展示櫃精選午茶托盤</h3>
+              <p class="showcase-card__desc">展示櫃內的黃銅托盤匯集覆盆子花朵塔、金箔巧克力閃電泡芙、粉色馬卡龍、泡芙與草莓方塊蛋糕。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Showcase Signature Platter</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="honey-lemon-tea-table" data-title="鼠尾草綠桌蜂蜜檸檬紅茶組" data-subtitle="Honey Lemon Tea on Sage Table · 1:12" data-desc="鼠尾草綠木桌上擺放玻璃紅茶壺、碎花茶杯、新鮮切半柑橘與迷你蜂蜜罐。" data-img="../../assets/source/desserts/IMG_8305.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8305.PNG" alt="鼠尾草綠桌蜂蜜檸檬紅茶組" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 鼠尾草綠桌蜂蜜檸檬紅茶組">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">鼠尾草綠桌蜂蜜檸檬紅茶組</h3>
+              <p class="showcase-card__desc">鼠尾草綠木桌上擺放玻璃紅茶壺、碎花茶杯、新鮮切半柑橘與迷你蜂蜜罐。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Honey Lemon Tea on Sage Table</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+          <article class="showcase-card" data-kind="dessert" data-id="window-berry-cake-tea-corner" data-title="窗邊莓果切片蛋糕獨享時光" data-subtitle="Window Corner Berry Cake · 1:12" data-desc="法式木門窗邊的大理石圓桌上，擺放著一塊莓果鮮奶油切片蛋糕與熱茶，溫暖靜謐。" data-img="../../assets/source/desserts/IMG_8306.PNG">
+            <div class="showcase-card__media" style="cursor:zoom-in;">
+              <img src="../../assets/source/desserts/IMG_8306.PNG" alt="窗邊莓果切片蛋糕獨享時光" loading="lazy" />
+              <span class="showcase-card__scale">1:12</span>
+              <button class="fav-toggle" type="button" title="加入或移除收藏" aria-label="收藏 窗邊莓果切片蛋糕獨享時光">♡</button>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__title">窗邊莓果切片蛋糕獨享時光</h3>
+              <p class="showcase-card__desc">法式木門窗邊的大理石圓桌上，擺放著一塊莓果鮮奶油切片蛋糕與熱茶，溫暖靜謐。</p>
+              <div class="showcase-card__footer">
+                <span style="color:var(--color-wood-light);font-size:0.8rem;">Window Corner Berry Cake</span>
+                <button class="pill-btn detail-btn" type="button">放大檢視</button>
+              </div>
+            </div>
+          </article>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">Pocket Sweets Studio · 掌心甜點研究所</div>
+      <p style="margin:0;">法式復古甜點店 × 微縮童話屋｜1:12 微縮甜點作品展示櫃與個人手作紀錄</p>
+    </div>
+  </footer>
+  <script src="../scripts/showcase-static.js" defer></script>
+</body>
+</html>

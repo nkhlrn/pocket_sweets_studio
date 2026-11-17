@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PocketSweetsTutorial",
+  "description": "Pocket Sweets Studio 微縮甜點教學文章結構定義，須與 wiki/tutorials/ 條目保持同步。",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "level",
+    "estimatedTime",
+    "materials",
+    "tools",
+    "stepsCount",
+    "wikiPath"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "唯一識別碼（kebab-case），須與 wiki/tutorials/<id>.md 檔名一致"
+    },
+    "title": {
+      "type": "string",
+      "description": "教學文章標題"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["新手入門", "進階技法", "大師挑戰"],
+      "description": "學習難度分級"
+    },
+    "estimatedTime": {
+      "type": "string",
+      "description": "預估製作時間（含乾燥等待，如：約 2 小時＋乾燥 24 小時）"
+    },
+    "materials": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "所需材料清單"
+    },
+    "tools": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "所需工具清單"
+    },
+    "techniques": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "涵蓋的核心微縮技法"
+    },
+    "stepsCount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "教學總步驟數"
+    },
+    "coverImage": {
+      "type": "string",
+      "description": "教學封面圖相對路徑"
+    },
+    "wikiPath": {
+      "type": "string",
+      "description": "對應的 wiki/tutorials/ 條目路徑"
+    }
+  }
+}

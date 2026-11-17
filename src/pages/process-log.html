@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>甜點製作日誌｜Pocket Sweets Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body data-page="process-log">
+  <header id="site-header" class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-logo__en">Pocket Sweets Studio</span>
+        <span class="brand-logo__zh">掌心甜點研究所</span>
+      </a>
+      <button class="nav-toggle" aria-label="切換選單" id="nav-toggle-btn">☰</button>
+      <ul class="nav-links" id="nav-links-list">
+        <li><a href="index.html">店舖首頁</a></li>
+        <li><a href="gallery.html">甜點展示櫃</a></li>
+        <li><a href="process-log.html" class="active">甜點製作日誌</a></li>
+        <li><a href="studio-log.html">我的工作檯 <span class="fav-badge" id="nav-fav-count">0</span></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <img class="page-banner__bg" src="../../assets/source/backgrounds/IMG_8321.PNG" alt="微縮甜點製作日誌" />
+    <div class="page-banner__scrim"></div>
+    <div class="page-banner__content">
+      <h1>甜點製作日誌</h1>
+      <p>收錄草莓蛋糕、水果塔、馬卡龍與可頌的製作過程，點選任一甜點即可欣賞完整步驟。</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <!-- 四種甜點獨立入口卡片 -->
+      <div class="counter-bar" style="margin-bottom:2.2rem;">
+        <div class="filter-pills">
+          <button class="pill-btn active" type="button" data-process-target="all">全部日誌</button>
+          <button class="pill-btn" type="button" data-process-target="strawberry-cake">草莓蛋糕</button>
+          <button class="pill-btn" type="button" data-process-target="fruit-tart">水果塔</button>
+          <button class="pill-btn" type="button" data-process-target="macaron">馬卡龍</button>
+          <button class="pill-btn" type="button" data-process-target="croissant">可頌</button>
+        </div>
+        <span style="font-size:0.88rem;color:var(--color-wood-medium);">點擊任一步驟圖片可放大檢視</span>
+      </div>
+
+      <!-- 1. 草莓蛋糕 -->
+      <article class="tutorial-card process-panel" data-process-id="strawberry-cake" id="strawberry-cake">
+        <div class="tutorial-hero">
+          <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8330.PNG" alt="草莓蛋糕完成擺盤" loading="lazy" />
+          <div>
+            <span class="tag-chip">微縮甜點製作紀錄</span>
+            <h2 style="font-family:var(--font-serif);margin:0.55rem 0 0.6rem;">草莓蛋糕製作日誌</h2>
+            <p style="margin:0 0 0.6rem;">從備妥雙層海綿蛋糕胚、抹刀鋪平鮮奶油、修整側面氣孔、疊層夾心到以鑷子點綴草莓切片，完整記錄 1:12 草莓蛋糕的誕生過程。</p>
+          </div>
+        </div>
+        <div class="tutorial-steps">
+          <div class="step-box" data-title="草莓蛋糕 · 步驟 1：備料與蛋糕胚準備" data-subtitle="草莓蛋糕製作日誌" data-desc="工作檯備妥海綿蛋糕胚、奶油碗、擠花袋、花嘴與草莓切片。" data-img="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8325.PNG">
+            <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8325.PNG" alt="草莓蛋糕備料" loading="lazy" />
+            <span class="step-badge">STEP 01</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">備料與蛋糕胚準備</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">於工作檯備妥雙層海綿蛋糕胚、奶油碗、擠花袋與草莓配件。</p>
+          </div>
+          <div class="step-box" data-title="草莓蛋糕 · 步驟 2：抹上底層鮮奶油" data-subtitle="草莓蛋糕製作日誌" data-desc="以迷你抹刀將鮮奶油均勻抹於底層海綿蛋糕表面。" data-img="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8326.PNG">
+            <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8326.PNG" alt="抹上底層鮮奶油" loading="lazy" />
+            <span class="step-badge">STEP 02</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">抹上底層鮮奶油</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">使用迷你抹刀在底層蛋糕胚上方抹出平整鮮奶油層。</p>
+          </div>
+          <div class="step-box" data-title="草莓蛋糕 · 步驟 3：修整蛋糕側面" data-subtitle="草莓蛋糕製作日誌" data-desc="以刮板輕撫蛋糕側面，修整雙層海綿蛋糕外緣。" data-img="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8327.PNG">
+            <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8327.PNG" alt="修整蛋糕側面" loading="lazy" />
+            <span class="step-badge">STEP 03</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">修整蛋糕側面</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">使用刮板修整雙層蛋糕側緣，保留細緻海綿氣孔質感。</p>
+          </div>
+          <div class="step-box" data-title="草莓蛋糕 · 步驟 4：夾心抹面組裝" data-subtitle="草莓蛋糕製作日誌" data-desc="疊上上層蛋糕胚並以抹刀補齊夾層奶油。" data-img="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8328.PNG">
+            <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8328.PNG" alt="夾心抹面組裝" loading="lazy" />
+            <span class="step-badge">STEP 04</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">夾心抹面組裝</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">疊合上下兩層海綿蛋糕，並以抹刀整理夾層奶油邊緣。</p>
+          </div>
+          <div class="step-box" data-title="草莓蛋糕 · 步驟 5：鑷子點綴草莓" data-subtitle="草莓蛋糕製作日誌" data-desc="使用精細鑷子夾取草莓切片，點綴於蛋糕頂層。" data-img="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8329.PNG">
+            <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8329.PNG" alt="鑷子點綴草莓" loading="lazy" />
+            <span class="step-badge">STEP 05</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">鑷子點綴草莓</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">以精細鑷子夾起微縮草莓片，定點擺放於頂部奶油上。</p>
+          </div>
+          <div class="step-box" data-title="草莓蛋糕 · 步驟 6：成品高腳盤陳列" data-subtitle="草莓蛋糕製作日誌" data-desc="完成雙層草莓鮮奶油蛋糕，擺放於碎花高腳瓷盤。" data-img="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8330.PNG">
+            <img src="../../assets/source/process-logs/01_Strawberry_Cake/IMG_8330.PNG" alt="草莓蛋糕完成陳列" loading="lazy" />
+            <span class="step-badge">STEP 06</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">成品高腳盤陳列</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">完成的雙層草莓蛋糕置於碎花高腳瓷盤，呈現午茶桌景。</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. 水果塔 -->
+      <article class="tutorial-card process-panel" data-process-id="fruit-tart" id="fruit-tart">
+        <div class="tutorial-hero">
+          <img src="../../assets/source/process-logs/02_Fruit_Tart/IMG_8333.PNG" alt="水果塔擺放鮮果" loading="lazy" />
+          <div>
+            <span class="tag-chip">微縮甜點製作紀錄</span>
+            <h2 style="font-family:var(--font-serif);margin:0.55rem 0 0.6rem;">水果塔製作日誌</h2>
+            <p style="margin:0 0 0.6rem;">記錄法式波浪塔皮入模塑形、填抹卡士達內餡，以及使用鑷子層層擺上綜合莓果與鮮果的製作過程。</p>
+          </div>
+        </div>
+        <div class="tutorial-steps">
+          <div class="step-box" data-title="水果塔 · 步驟 1：塔皮入模修邊" data-subtitle="水果塔製作日誌" data-desc="將塔皮壓入波浪塔模並修整邊緣。" data-img="../../assets/source/process-logs/02_Fruit_Tart/IMG_8331.PNG">
+            <img src="../../assets/source/process-logs/02_Fruit_Tart/IMG_8331.PNG" alt="塔皮入模修邊" loading="lazy" />
+            <span class="step-badge">STEP 01</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">塔皮入模修邊</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">將塔皮麵團壓入波浪金屬塔模中，並細心修整花邊。</p>
+          </div>
+          <div class="step-box" data-title="水果塔 · 步驟 2：填入卡士達醬" data-subtitle="水果塔製作日誌" data-desc="以迷你抹刀在烤色金黃的塔皮內抹入卡士達醬。" data-img="../../assets/source/process-logs/02_Fruit_Tart/IMG_8332.PNG">
+            <img src="../../assets/source/process-logs/02_Fruit_Tart/IMG_8332.PNG" alt="填入卡士達醬" loading="lazy" />
+            <span class="step-badge">STEP 02</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">填入卡士達醬</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">在金黃酥脆的塔皮內以抹刀填平卡士達內餡。</p>
+          </div>
+          <div class="step-box" data-title="水果塔 · 步驟 3：鑷子擺放鮮果" data-subtitle="水果塔製作日誌" data-desc="使用鑷子在塔面上擺放草莓、奇異果、藍莓與覆盆子。" data-img="../../assets/source/process-logs/02_Fruit_Tart/IMG_8333.PNG">
+            <img src="../../assets/source/process-logs/02_Fruit_Tart/IMG_8333.PNG" alt="鑷子擺放鮮果" loading="lazy" />
+            <span class="step-badge">STEP 03</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">鑷子擺放鮮果</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">以精細鑷子夾取草莓、奇異果、藍莓與覆盆子逐一裝飾。</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. 馬卡龍 -->
+      <article class="tutorial-card process-panel" data-process-id="macaron" id="macaron">
+        <div class="tutorial-hero">
+          <img src="../../assets/source/process-logs/03_Macaron/IMG_8336.PNG" alt="馬卡龍高腳盤陳列" loading="lazy" />
+          <div>
+            <span class="tag-chip">微縮甜點製作紀錄</span>
+            <h2 style="font-family:var(--font-serif);margin:0.55rem 0 0.6rem;">馬卡龍製作日誌</h2>
+            <p style="margin:0 0 0.6rem;">記錄使用擠花袋擠出粉彩馬卡龍圓餅、抹入夾心內餡合起，並以雕花黃銅夾堆疊陳列於高腳瓷盤的過程。</p>
+          </div>
+        </div>
+        <div class="tutorial-steps">
+          <div class="step-box" data-title="馬卡龍 · 步驟 1：擠出粉彩圓餅" data-subtitle="馬卡龍製作日誌" data-desc="使用擠花袋在烤盤上整齊擠出多色馬卡龍外殼。" data-img="../../assets/source/process-logs/03_Macaron/IMG_8334.PNG">
+            <img src="../../assets/source/process-logs/03_Macaron/IMG_8334.PNG" alt="擠出粉彩圓餅" loading="lazy" />
+            <span class="step-badge">STEP 01</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">擠出粉彩圓餅</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">以粉色擠花袋於方形烤盤擠出粉、綠、白、米黃馬卡龍殼。</p>
+          </div>
+          <div class="step-box" data-title="馬卡龍 · 步驟 2：抹上夾心內餡" data-subtitle="馬卡龍製作日誌" data-desc="以迷你抹刀抹入夾心餡並蓋上另一片外殼。" data-img="../../assets/source/process-logs/03_Macaron/IMG_8335.PNG">
+            <img src="../../assets/source/process-logs/03_Macaron/IMG_8335.PNG" alt="抹上夾心內餡" loading="lazy" />
+            <span class="step-badge">STEP 02</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">抹上夾心內餡</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">使用迷你抹刀塗抹夾心奶油並雙片合起成完整馬卡龍。</p>
+          </div>
+          <div class="step-box" data-title="馬卡龍 · 步驟 3：黃銅夾堆疊擺盤" data-subtitle="馬卡龍製作日誌" data-desc="以雕花黃銅夾將五彩馬卡龍堆疊於高腳瓷盤。" data-img="../../assets/source/process-logs/03_Macaron/IMG_8336.PNG">
+            <img src="../../assets/source/process-logs/03_Macaron/IMG_8336.PNG" alt="黃銅夾堆疊擺盤" loading="lazy" />
+            <span class="step-badge">STEP 03</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">黃銅夾堆疊擺盤</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">以雕花黃銅夾將馬卡龍堆疊成小塔陳列於高腳盤上。</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4. 可頌 -->
+      <article class="tutorial-card process-panel" data-process-id="croissant" id="croissant">
+        <div class="tutorial-hero">
+          <img src="../../assets/source/process-logs/04_Croissant/IMG_8339.PNG" alt="可頌出爐擺盤" loading="lazy" />
+          <div>
+            <span class="tag-chip">微縮甜點製作紀錄</span>
+            <h2 style="font-family:var(--font-serif);margin:0.55rem 0 0.6rem;">可頌製作日誌</h2>
+            <p style="margin:0 0 0.6rem;">記錄從擀平麵皮裁切三角形酥皮、捲成經典彎月形可頌胚，到烤出金黃層次並擺入雕花黃銅托盤的過程。</p>
+          </div>
+        </div>
+        <div class="tutorial-steps">
+          <div class="step-box" data-title="可頌 · 步驟 1：擀皮與裁切三角形" data-subtitle="可頌製作日誌" data-desc="以迷你擀麵棍擀平麵團並裁切出三角形酥皮。" data-img="../../assets/source/process-logs/04_Croissant/IMG_8337.PNG">
+            <img src="../../assets/source/process-logs/04_Croissant/IMG_8337.PNG" alt="擀皮與裁切三角形" loading="lazy" />
+            <span class="step-badge">STEP 01</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">擀皮與裁切三角形</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">使用迷你擀麵棍擀平麵皮並裁切出等腰三角形酥皮片。</p>
+          </div>
+          <div class="step-box" data-title="可頌 · 步驟 2：捲製彎月形可頌胚" data-subtitle="可頌製作日誌" data-desc="將三角形酥皮由寬端捲成彎月形並排上烤盤。" data-img="../../assets/source/process-logs/04_Croissant/IMG_8338.PNG">
+            <img src="../../assets/source/process-logs/04_Croissant/IMG_8338.PNG" alt="捲製彎月形可頌胚" loading="lazy" />
+            <span class="step-badge">STEP 02</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">捲製彎月形可頌胚</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">以鑷子協助整理三角形酥皮，捲出層疊螺旋彎月造型。</p>
+          </div>
+          <div class="step-box" data-title="可頌 · 步驟 3：金黃出爐擺入托盤" data-subtitle="可頌製作日誌" data-desc="烤製上色完成後，以黃銅夾將可頌擺入雕花托盤。" data-img="../../assets/source/process-logs/04_Croissant/IMG_8339.PNG">
+            <img src="../../assets/source/process-logs/04_Croissant/IMG_8339.PNG" alt="金黃出爐擺入托盤" loading="lazy" />
+            <span class="step-badge">STEP 03</span>
+            <h3 style="margin:0.2rem 0 0.35rem;font-size:1rem;">金黃出爐擺入托盤</h3>
+            <p style="margin:0;font-size:0.88rem;color:var(--color-wood-medium);">呈現烤色金黃的酥脆層次，以黃銅夾擺入雕花托盤。</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">Pocket Sweets Studio · 掌心甜點研究所</div>
+      <p style="margin:0;">法式復古甜點店 × 微縮童話屋｜1:12 微縮甜點作品展示櫃與製作日誌</p>
+    </div>
+  </footer>
+  <script src="../scripts/showcase-static.js" defer></script>
+</body>
+</html>

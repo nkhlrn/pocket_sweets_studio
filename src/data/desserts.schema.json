@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PocketSweetsDessert",
+  "description": "Pocket Sweets Studio 微縮甜點圖鑑單筆作品結構定義，須與 wiki/desserts/ 條目保持同步。",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "scale",
+    "difficulty",
+    "materials",
+    "summary",
+    "wikiPath"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "唯一識別碼（kebab-case），須與 wiki/desserts/<id>.md 檔名一致"
+    },
+    "name": {
+      "type": "string",
+      "description": "甜點繁體中文名稱（如：法式草莓千層派）"
+    },
+    "nameEn": {
+      "type": "string",
+      "description": "法文或英文副標題（如：Mille-Feuille aux Fraises）"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["塔派類", "蛋糕類", "馬卡龍與餅乾", "可麗露與烘焙", "飲品與冰品", "季節限定"],
+      "description": "甜點圖鑑主分類"
+    },
+    "scale": {
+      "type": "string",
+      "enum": ["1:12", "1:6", "1:24", "其他"],
+      "description": "微縮比例尺"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "製作難度（1 至 5 顆星）"
+    },
+    "materials": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "主要使用材料名稱清單"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "搜尋與篩選標籤"
+    },
+    "summary": {
+      "type": "string",
+      "description": "展示櫃卡片上的簡短介紹"
+    },
+    "image": {
+      "type": "string",
+      "description": "作品主圖相對路徑（如：assets/images/desserts/<id>/cover.webp）"
+    },
+    "wikiPath": {
+      "type": "string",
+      "description": "對應的 wiki/ 知識條目路徑"
+    },
+    "tutorialId": {
+      "type": "string",
+      "description": "關聯的教學文章 ID（選填）"
+    }
+  }
+}

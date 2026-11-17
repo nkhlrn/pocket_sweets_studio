@@ -1,0 +1,53 @@
+/**
+ * Pocket Sweets Studio（掌心甜點研究所）視覺設計系統變數
+ * 美學定位：法式復古甜點店（French Vintage Patisserie）× 微縮童話屋（Miniature Dollhouse）
+ * 視覺參考：深色雕花木質家具、淡粉色櫃檯、黃銅玻璃展示櫃、暖黃色燈光、精緻微縮甜點
+ * 規範：所有頁面與元件皆須引用此檔案的 CSS 變數，禁止寫死色碼。
+ */
+
+:root {
+  /* === 背景與牆面（奶油色牆面） === */
+  --color-cream-wall: #FAF5EC;        /* 主背景：溫潤象牙奶油色 */
+  --color-cream-warm: #F3E9D8;        /* 次背景：暖調奶油紙張色 */
+  --color-cream-card: #FFFDF9;        /* 展示卡片內底色 */
+
+  /* === 淡粉色櫃檯（Pastel Pink Counter） === */
+  --color-counter-pink: #F2D7D5;      /* 淡粉色櫃檯主色：篩選列、標籤底色、重點卡片襯底 */
+  --color-counter-pink-soft: #F9EAE8; /* 柔和粉霧面：懸停狀態與輔助區塊 */
+
+  /* === 復古雕花木質家具（Vintage Carved Wood） === */
+  --color-wood-dark: #3B281B;         /* 深雕花胡桃木：主要文字與頁首頁尾 */
+  --color-wood-medium: #5E422E;       /* 暖焦糖木：次要標題與木框 */
+  --color-wood-light: #8C6A50;        /* 淺橡木：輔助說明文字 */
+
+  /* === 黃銅玻璃展示櫃（Brass Showcase） === */
+  --color-brass-gold: #C59B48;        /* 霧面黃銅主色：邊框、徽章、重點按鈕 */
+  --color-brass-light: #DFBE76;       /* 亮面黃銅：懸停高光與細節裝飾 */
+  --color-brass-dark: #8E6B29;        /* 復古古銅：按壓狀態與深色描邊 */
+
+  /* === 甜點點綴色（Patisserie Accents） === */
+  --color-berry-rose: #B85D68;        /* 覆盆子玫瑰：收藏愛心、草莓系標籤 */
+  --color-pistachio-sage: #7E9674;    /* 開心果鼠尾草綠：完成狀態、材料標籤 */
+  --color-caramel-amber: #D48C46;     /* 焦糖琥珀：難度星等、烘烤提示 */
+
+  /* === 暖黃色燈光與玻璃質感（Warm Yellow Lighting & Glass） === */
+  --color-warm-light: rgba(255, 224, 150, 0.22); /* 暖黃色櫃內打燈光暈 */
+  --shadow-warm-sm: 0 2px 8px rgba(74, 53, 37, 0.08);
+  --shadow-warm-md: 0 6px 20px rgba(74, 53, 37, 0.12);
+  --shadow-brass-glow: 0 0 20px rgba(235, 188, 102, 0.32);
+  --glass-overlay: rgba(255, 253, 249, 0.72);
+
+  /* === 字體設定（Typography） === */
+  --font-serif: "Playfair Display", "Noto Serif TC", Georgia, serif;
+  --font-sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* === 間距與圓角（Spacing & Radius） === */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  --border-brass: 1px solid rgba(197, 155, 72, 0.5);
+  --border-wood: 1px solid rgba(94, 66, 46, 0.18);
+}

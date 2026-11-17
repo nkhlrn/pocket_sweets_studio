@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的工作檯與製作紀錄｜Pocket Sweets Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/tokens.css" />
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body data-page="studio-log">
+  <header id="site-header"></header>
+
+  <section class="page-banner">
+    <img class="page-banner__bg" src="../../assets/source/backgrounds/IMG_8323.PNG" alt="個人微縮甜點工作檯" />
+    <div class="page-banner__scrim"></div>
+    <div class="page-banner__content">
+      <h1>我的工作檯：收藏與製作紀錄</h1>
+      <p>管理您收藏的靈感甜點，並記錄每一次調色配方、比例尺與乾燥進度（資料安全儲存於本機瀏覽器）。</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-ribbon">個人製作紀錄本（Craft Log）</span>
+        <img class="ornament-divider" src="../../assets/source/decorations/IMG_8316.PNG" alt="" />
+      </div>
+
+      <div class="studio-layout">
+        <form class="notebook-panel" id="craft-log-form">
+          <h2 style="font-family:var(--font-serif);margin-top:0;">新增手作紀錄</h2>
+          <div class="form-group">
+            <label for="log-title">作品名稱 *</label>
+            <input class="input-vintage" id="log-title" type="text" required placeholder="例如：1:12 草莓千層派初試" />
+          </div>
+          <div class="form-group">
+            <label for="log-scale">製作比例尺</label>
+            <select class="select-vintage" id="log-scale">
+              <option value="1:12">1:12 標準微縮</option>
+              <option value="1:6">1:6 娃屋比例</option>
+              <option value="1:24">1:24 袖珍比例</option>
+              <option value="其他">其他</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="log-status">目前進度</label>
+            <select class="select-vintage" id="log-status">
+              <option value="規劃中">規劃中</option>
+              <option value="製作中">製作中</option>
+              <option value="乾燥中">乾燥中</option>
+              <option value="已完成">已完成</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="log-materials">使用材料（以頓號或逗號分隔）</label>
+            <input class="input-vintage" id="log-materials" type="text" placeholder="樹脂黏土、奶油土、黃土色色粉" />
+          </div>
+          <div class="form-group">
+            <label for="log-notes">調色比例與心得筆記</label>
+            <textarea class="textarea-vintage" id="log-notes" rows="4" placeholder="記錄黏土混色比例、乾燥時間或下次改進重點…"></textarea>
+          </div>
+          <button class="btn-brass" type="submit" style="width:100%;">儲存製作紀錄</button>
+        </form>
+
+        <div class="notebook-panel">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:0.5rem;">
+            <h2 style="font-family:var(--font-serif);margin:0;">歷次紀錄清單</h2>
+            <button class="btn-cream" id="export-logs-btn" type="button" style="padding:0.45rem 1rem;font-size:0.85rem;">匯出 JSON 備份</button>
+          </div>
+          <div id="craft-logs-list"></div>
+        </div>
+      </div>
+
+      <div class="section-header" style="margin-top:3.5rem;">
+        <span class="section-ribbon">已收藏的展示櫃甜點</span>
+        <img class="ornament-divider" src="../../assets/source/decorations/IMG_8316.PNG" alt="" />
+      </div>
+      <div class="card-grid" id="saved-desserts-grid"></div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script type="module" src="../scripts/app.js"></script>
+</body>
+</html>
