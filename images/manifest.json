@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-17",
+  "totalAssets": 43,
+  "categories": {
+    "Background": {
+      "sourceFolder": "assets/source/backgrounds/",
+      "description": "店舖場景、網站背景、首頁主視覺、紋理及色彩風格參考",
+      "items": [
+        { "file": "IMG_8288.PNG", "size": "2560x1440", "role": "hero-main", "usage": "首頁 Hero 主視覺（法式復古微縮甜點店全景、淡粉色櫃檯與黃銅展示櫃）" },
+        { "file": "IMG_8295.PNG", "size": "1920x1920", "role": "texture-cream", "usage": "全站奶油色手工紙紋理背景" },
+        { "file": "IMG_8307.PNG", "size": "1920x1920", "role": "texture-toile", "usage": "法式花卉與微縮甜點復古壁紙紋理（頁尾、側欄與專題區塊襯底）" },
+        { "file": "IMG_8308.PNG", "size": "1920x1920", "role": "texture-pink", "usage": "淡粉色手工紙紋理（櫃檯篩選列與重點提示區襯底）" },
+        { "file": "IMG_8309.PNG", "size": "1920x1920", "role": "texture-sage", "usage": "鼠尾草綠手工紙紋理（知識庫筆記與材料卡襯底）" },
+        { "file": "IMG_8320.PNG", "size": "2560x1440", "role": "banner-gallery", "usage": "甜點圖鑑頁頂部橫幅（門框視角進入店舖黃銅展示櫃）" },
+        { "file": "IMG_8321.PNG", "size": "2560x1440", "role": "banner-tutorials", "usage": "製作教學頁頂部橫幅（店內望向法式花園門扉與展示櫃近景）" },
+        { "file": "IMG_8322.PNG", "size": "2560x1440", "role": "banner-encyclopedia", "usage": "材料工具百科頁頂部橫幅（陽光灑落窗邊座位與木質櫥櫃）" },
+        { "file": "IMG_8323.PNG", "size": "2560x1440", "role": "banner-studio-log", "usage": "個人工作檯頁頂部橫幅（正面平視黃銅展示櫃與雙層甜點陳列）" },
+        { "file": "IMG_8324.PNG", "size": "2560x1440", "role": "scene-interior-alt", "usage": "店舖高角度全景備用場景（展示木質茶桌與後側陳列櫃）" }
+      ]
+    },
+    "Declaration": {
+      "sourceFolder": "assets/source/decorations/",
+      "description": "網頁介面的互動按鈕及裝飾素材",
+      "items": [
+        { "file": "IMG_8296.PNG", "size": "1920x1920", "role": "ornament-trio", "usage": "粉花綠葉、金邊緞帶與蝴蝶結珍珠吊墜三件組裝飾" },
+        { "file": "IMG_8310.PNG", "size": "2176x1632", "role": "plaque-cream", "usage": "奶油色圓角長方形金邊銘牌框（公告與品牌引言底框）" },
+        { "file": "IMG_8311.PNG", "size": "1920x1920", "role": "frame-square", "usage": "正方形復古奶油金邊相框（精選甜點或工作檯作品框）" },
+        { "file": "IMG_8312.PNG", "size": "2688x1152", "role": "btn-primary", "usage": "焦糖暖棕色亮面金邊膠囊按鈕（主要行動按鈕）" },
+        { "file": "IMG_8313.PNG", "size": "2688x1152", "role": "btn-secondary", "usage": "奶油色鼠尾草綠金邊膠囊按鈕（次要按鈕與篩選標籤）" },
+        { "file": "IMG_8314.PNG", "size": "1920x1920", "role": "frame-round", "usage": "圓形復古陶瓷盤金邊紋框（分類入口徽章與印章框）" },
+        { "file": "IMG_8315.PNG", "size": "2080x1664", "role": "ribbon-pink", "usage": "淡粉色金邊捲軸橫幅緞帶（章節標題橫幅）" },
+        { "file": "IMG_8316.PNG", "size": "2688x1152", "role": "divider-brass", "usage": "水平黃銅細桿粉花分隔線（區塊分隔裝飾）" }
+      ]
+    },
+    "Process": {
+      "sourceFolder": "assets/source/process/",
+      "description": "微縮甜點製作過程，例如手部操作微型蛋糕、使用工具製作甜點等場景",
+      "items": [
+        { "file": "IMG_8317.WEBP", "size": "2176x1632", "role": "process-tweezers", "usage": "手持金屬鑷子為雙層微縮草莓蛋糕點綴粉色小花" },
+        { "file": "IMG_8318.PNG", "size": "2176x1632", "role": "process-piping", "usage": "手持擠花袋為粉色玫瑰花環微縮蛋糕擠上奶油花" },
+        { "file": "IMG_8319.PNG", "size": "2176x1632", "role": "process-showcase", "usage": "手持黃銅夾子將微縮花朵塔放入亮燈的黃銅玻璃展示櫃" }
+      ]
+    },
+    "Desserts": {
+      "sourceFolder": "assets/source/desserts/",
+      "description": "微縮甜點圖鑑作品、特寫、工具盤與店內午茶陳列場景",
+      "items": [
+        { "file": "IMG_8280.JPG", "size": "784x1168", "usage": "迷你復古玻璃展示櫃（內含多款 1:12 微縮蛋糕與馬卡龍）" },
+        { "file": "IMG_8282.JPG", "size": "784x1168", "usage": "草莓鮮奶油擠花圓蛋糕（白底特寫）" },
+        { "file": "IMG_8283.JPG", "size": "784x1168", "usage": "綜合莓果卡士達法式塔（白底特寫）" },
+        { "file": "IMG_8284.JPG", "size": "784x1168", "usage": "粉彩法式馬卡龍拼盤（白底特寫）" },
+        { "file": "IMG_8285.JPG", "size": "784x1168", "usage": "焦糖脆皮鮮奶油泡芙（白底特寫）" },
+        { "file": "IMG_8286.JPG", "size": "784x1168", "usage": "粉紅糖霜覆盆子千層酥（白底特寫）" },
+        { "file": "IMG_8287.PNG", "size": "1920x1920", "usage": "雙層草莓鮮奶油海綿蛋糕（木桌陶瓷高腳盤陳列）" },
+        { "file": "IMG_8289.PNG", "size": "1920x1920", "usage": "繽紛鮮果卡士達水果塔（木桌陶瓷盤陳列）" },
+        { "file": "IMG_8290.PNG", "size": "1920x1920", "usage": "焦糖聖多諾黑泡芙與馬卡龍高腳盤拼盤" },
+        { "file": "IMG_8291.PNG", "size": "1920x1920", "usage": "金黃酥皮可頌與焦糖可麗露黃銅托盤" },
+        { "file": "IMG_8292.PNG", "size": "1920x1920", "usage": "法式千層派與覆盆子／巧克力閃電泡芙瓷盤" },
+        { "file": "IMG_8294.PNG", "size": "2176x1632", "usage": "微縮擠花袋、花嘴與玫瑰奶油花練習盤（工作檯道具特寫）" },
+        { "file": "IMG_8297.PNG", "size": "1920x1920", "usage": "指尖輕捧 1:12 雙層草莓蛋糕比例尺示範" },
+        { "file": "IMG_8298.PNG", "size": "1920x1920", "usage": "黃銅弧形玻璃展示櫃雙層甜點近景" },
+        { "file": "IMG_8299.PNG", "size": "1920x1920", "usage": "微縮藤籃新鮮莓果與水果材料（草莓、藍莓、葡萄、西洋梨）" },
+        { "file": "IMG_8300.PNG", "size": "1920x1920", "usage": "法式茶壺組與貝殼瑪德蓮午茶桌景" },
+        { "file": "IMG_8301.PNG", "size": "1920x1920", "usage": "玫瑰氣泡飲、手沖紅茶壺與木質吧檯" },
+        { "file": "IMG_8302.PNG", "size": "1920x1920", "usage": "草莓千層蛋糕與覆盆子泡芙塔（搭配復古銀叉與蛋糕鏟）" },
+        { "file": "IMG_8303.PNG", "size": "1920x1920", "usage": "奶油珠邊玫瑰花環慶典蛋糕" },
+        { "file": "IMG_8304.PNG", "size": "1920x1920", "usage": "黃銅展示櫃內精選拼盤（覆盆子塔、閃電泡芙、馬卡龍、泡芙、草莓蛋糕）" },
+        { "file": "IMG_8305.PNG", "size": "1920x1920", "usage": "鼠尾草綠木桌上的蜂蜜檸檬紅茶組" },
+        { "file": "IMG_8306.PNG", "size": "1920x1920", "usage": "店門窗邊的莓果切片蛋糕午茶獨享桌" }
+      ]
+    }
+  }
+}

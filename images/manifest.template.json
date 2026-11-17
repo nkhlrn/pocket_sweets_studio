@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "note": "圖片素材對應清單範本。請依實際資料夾（Background、Declaration、Process）中的檔案名稱填入對應陣列，勿自行編造檔名。",
+  "categories": {
+    "Background": {
+      "description": "店舖場景、網站背景、首頁主視覺、紋理及色彩風格參考",
+      "basePath": "Background/",
+      "hero": [],
+      "textures": [],
+      "banners": []
+    },
+    "Declaration": {
+      "description": "網頁介面的互動按鈕及裝飾素材",
+      "basePath": "Declaration/",
+      "buttons": [],
+      "ornaments": [],
+      "badges": []
+    },
+    "Process": {
+      "description": "微縮甜點製作過程，例如手部操作微型蛋糕、使用工具製作甜點等場景",
+      "basePath": "Process/",
+      "steps": []
+    }
+  }
+}
